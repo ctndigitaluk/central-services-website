@@ -65,7 +65,7 @@ html, body {
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 767px) {
+@media (max-width: 100%) {
   .mainTitle {
     font-size: 48px;
   }
