@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_hero_1 {
+  background: url(images/hero_image_1) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 635px;
+  text-align: center;
+  position: absolute;
+}
+
+.mainTitle {
+  color: white;
+  font-size: 72px;
+  font-weight: normal;
+  font-family: Arial;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+
+.slogan {
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.buttonPrimary {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin: 5px ;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  font-family: Arial;
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .mainTitle {
+    font-size: 48px;
+  }
+
+  .slogan {
+    font-size: 18px;
+  }
+
+  .buttonPrimary {
+    font-size: 16px;
+  }
+}
+
+
+.buttonPrimary:hover {
+  background-color: #ff5555;
+}
+
+
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.subscribeForm h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.subscribeForm input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.subscribeForm button[type="submit"] {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  width: 200px;
+}
+
